@@ -1,0 +1,5 @@
+node_modules
+build
+public/style.css
+public/client.js
+package-lock.json
