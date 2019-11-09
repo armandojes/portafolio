@@ -11,6 +11,7 @@ function Markup (props){
 					id="render_target"
 					dangerouslySetInnerHTML={{__html: props.content_rendered || ''}}
 				/>
+				<script src={`${ASSETS}/client.js`} />
 			</body>
 		</html>
 	)

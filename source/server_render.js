@@ -1,12 +1,12 @@
 import React from 'react';
-import { Router } from 'express';
 import asyncRenderToString from 'react-fetch-ssr';
 import { StaticRouter } from "react-router";
 import App from './app/app'
 import { renderToStaticMarkup } from 'react-dom/server';
-const router = Router();
-import Markup from './markup'
-router.get('*', async (request, response) => {
+import Markup from './markup';
+
+
+async function serverRender(request, response){
 	
 	const context = {};
 	const content_rendered = await asyncRenderToString(
@@ -18,6 +18,6 @@ router.get('*', async (request, response) => {
 	const html = renderToStaticMarkup(<Markup content_rendered={content_rendered} />);
 	
 	response.send(html);
-});
+};
 
-export default router;
+export default serverRender;

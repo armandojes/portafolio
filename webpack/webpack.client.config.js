@@ -38,8 +38,8 @@ const config = {
     }),
     new webpack.DefinePlugin({
       IS_PRODUCTION: process.env.NODE_ENV === 'production' ? true : false,
-      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001'),
-      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3001/public'),
+      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3000'),
+      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? '' : 'http://localhost:3000/public'),
     })
   ],
   target: 'web',
