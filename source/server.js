@@ -5,4 +5,6 @@ const server = express();
 //statics server
 server.use('/public', express.static('public'));
 server.get('*', serverRender);
+
+
 server.listen(3000, () => console.log('**************** server stared **************'));
