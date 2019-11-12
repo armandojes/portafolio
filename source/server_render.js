@@ -29,7 +29,6 @@ async function serverRender(request, response){
 	);
 
 	const preloaded_state = store.getState();
-	console.log(preloaded_state)
 	
 	const html = renderToStaticMarkup(<Markup content_rendered={content_rendered} preloaded_state={preloaded_state}/>);
 	

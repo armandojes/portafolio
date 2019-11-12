@@ -15,6 +15,7 @@ const  store  =  createStore (
   composeWithDevTools ( applyMiddleware (ReduxThunk, logger))
 );
 
+const preloaded_state = window.preloaded_state;
 
 function Client (props) {
 	return (
