@@ -34,6 +34,7 @@
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
     "redux": "^4.0.4",
+    "redux-ducks": "^0.2.0",
     "redux-thunk": "^2.3.0",
     "regenerator-runtime": "^0.13.3",
     "reset-css": "^5.0.1"
