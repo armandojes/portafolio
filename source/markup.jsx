@@ -8,6 +8,8 @@ function Markup (props){
 		<html>
 			<head>
 				<title>Portafolio Armando de jesus</title>
+				<link rel="stylesheet" href={`${ASSETS}/styles.css`}/>
+				<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 			</head>
 			<body>
 				<div 
