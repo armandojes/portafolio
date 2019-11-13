@@ -6,6 +6,8 @@ import Container from '../container';
 
 function header (){
 
+	console.log('render_header');
+
 	return (
 		<header className={style.header} >
 			<Container className={style.body}>

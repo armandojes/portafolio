@@ -1,24 +1,24 @@
 
 const menu = [
 	{
-		us: { text: 'Home', link: '/',},
-		es: { text: 'Inicio', link: '/',},
+		us: { text: 'Home', path: '/',},
+		es: { text: 'Inicio', path: '/',},
 	},
 	{
-		us: { text: 'Proyects', link: '/proyects',},
-		es: { text: 'Proyectos', link: '/proyects',},
+		us: { text: 'Proyects', path: '/proyects',},
+		es: { text: 'Proyectos', path: '/proyects',},
 	},
 	{
-		us: { text: 'Certificates', link: '/certificates',},
-		es: { text: 'Certificados', link: '/certificates',},
+		us: { text: 'Certificates', path: '/certificates',},
+		es: { text: 'Certificados', path: '/certificates',},
 	},
 	{
-		us: { text: 'Abilities', link: '/abilities',},
-		es: { text: 'Habilidades', link: '/abilities',},
+		us: { text: 'Abilities', path: '/abilities',},
+		es: { text: 'Habilidades', path: '/abilities',},
 	},
 	{
-		us: { text: 'Contact', link: '/contact',},
-		es: { text: 'Contacto', link: '/contact',},
+		us: { text: 'Contact', path: '/contact',},
+		es: { text: 'Contacto', path: '/contact',},
 	},
 ];
 
