@@ -1,13 +1,12 @@
 .header{
 	background-color: #71788a;
+	box-shadow: 0 0px 20px 0 rgba(0,0,0,.1);
 }
 .body{
 	color: #fff;
 	padding-top: 0px!important;
 	padding-bottom: 0px!important;
 	display: flex;
-	justify-content: center;
 	align-items: center;
 	height: 60px;
-	box-shadow: 0 2px 20px 0 rgba(0,0,0,.1);
 }

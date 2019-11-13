@@ -9,6 +9,7 @@ function Markup (props){
 			<head>
 				<title>Portafolio Armando de jesus</title>
 				<link rel="stylesheet" href={`${ASSETS}/styles.css`}/>
+				<meta name="viewport" content="width=device-width, user-scalable=no" />
 				<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
 			</head>
 			<body>
