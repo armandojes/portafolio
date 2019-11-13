@@ -1,7 +1,4 @@
-._2_ezWLoW2HJRAtwiYwSy2y{
-	background-color: #71788a;
-	box-shadow: 0 0px 20px 0 rgba(0,0,0,.1);
-}
+
 ._2oW_tlJ4J_y2yVbO_4Wv_7{
 	color: #fff;
 	padding-top: 0px!important;
@@ -10,7 +7,15 @@
 	align-items: center;
 	height: 60px;
 }
-
+.sANPY7-0bd3l-1Sx5m3vh{
+	height: 60px;
+}
+._2LX3vK9b0F8fLWjb6Ugfev{
+	box-shadow: 0 0px 20px 0 rgba(0,0,0,.1);
+	background-color: #71788a;
+	position: fixed;
+	width: 100%;
+}
 ._2dvVTbIB11rxnOxBgZpHno{
 	width: 100%;
 	display: flex;
@@ -115,4 +120,10 @@ body{
 	font-family: 'Roboto', sans-serif;
 }
 
-
+.ZBKoaNXeh8dAIh4GrfZG4{
+	background-color: #71788a;
+}
+._1tOrQVtB6qr8B3E2uCTArr{
+	display: block;
+	height: 450px;
+}

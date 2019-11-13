@@ -7,11 +7,14 @@ import Container from '../container';
 function header (){
 
 	return (
-		<header className={style.header} >
-			<Container className={style.body}>
-				<MenuMovil />
-				<Menu />
-			</Container>
+		<header className={style.header}>
+			<div className={style.fixed} >
+				<Container className={style.body}>
+					<MenuMovil />
+					<Menu />
+				</Container>
+			</div>
+			<div className={style.height}/>
 		</header>
 	)
 }

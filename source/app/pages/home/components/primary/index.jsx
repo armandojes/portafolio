@@ -5,9 +5,11 @@ import style from './style';
 function Primary (props){
 
 	return (
-		<Container>
-			hello nprimary
-		</Container>
+		<section className={style.wrapper}>
+			<Container className={style.container}>
+				hello
+			</Container>
+		</section>
 	);
 
 }
