@@ -124,6 +124,8 @@ body{
 	background-color: #71788a;
 }
 ._1tOrQVtB6qr8B3E2uCTArr{
-	display: block;
+	display: flex;
+	justify-content: center;
 	height: 450px;
+	align-items: center;
 }

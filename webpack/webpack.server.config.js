@@ -30,7 +30,10 @@ const config = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.jsx', '.css']
+    extensions: ['.js', '.jsx', '.css'],
+    alias: {
+      hooks: path.resolve(__dirname, '../source/app/hooks'),
+    }
   },
   plugins: [
     new extract({
