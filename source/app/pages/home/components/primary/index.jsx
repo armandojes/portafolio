@@ -4,9 +4,11 @@ import style from './style';
 import useSelect from 'hooks/selector.js'
 
 function Primary (props){
-
-
+	
+	const states = useSelect(state => state.pages.home.primary);
+	
 	console.log('render primary...');
+	console.log(states);
 
 	return (
 		<section className={style.wrapper}>
