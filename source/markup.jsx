@@ -7,6 +7,7 @@ function Markup (props){
 	return (
 		<html>
 			<head>
+				<base href={BASEURL} />
 				<title>Portafolio Armando de jesus</title>
 				<link rel="stylesheet" href={`${ASSETS}/styles.css`}/>
 				<meta name="viewport" content="width=device-width, user-scalable=no" />
