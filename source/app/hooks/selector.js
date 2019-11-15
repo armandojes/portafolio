@@ -11,7 +11,6 @@ function extrat_rec (data, language){
 	//verificar valor final 
 	if (getType(data) === 'object'){
 		if (data[language]){
-			
 			return data[language];
 		}
 	}
@@ -22,12 +21,10 @@ function extrat_rec (data, language){
 	}
 	
 	if (getType(data) === 'object') {
-		const keys = Object.keys(data);
-		var newObj = {};
-		keys.map(key => {
-			
-		})
-		
+		for (const key in data){
+			data[key] = extrat_rec(data[key], language);
+		}
+		return data;
 	}
 
 	return data;
