@@ -1,0 +1,39 @@
+.wrapp{
+  background: #3b4153cc;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-blend-mode: multiply;
+  color: #fff;
+}
+.body{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  min-height: 500px;
+  width: 100%;
+  box-sizing: border-box;
+}
+.body h2{
+  font-weight: bold;
+  max-width: 700px;
+  font-size: 2em;
+  margin-bottom: 20px;
+}
+.body p{
+  max-width: 700px;
+  line-height: 1.3em;
+  font-size: 1.1em;
+  margin: 30px 0px;
+}
+@media screen and (max-width: 450px){
+  .body{
+    text-align: center;
+  }
+  .body h2{
+    font-size: 1.5em;
+  }
+  .body p {
+    font-size: 1em;
+  }
+}
