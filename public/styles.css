@@ -15,6 +15,7 @@
 	background-color: #71788a;
 	position: fixed;
 	width: 100%;
+	z-index: 10;
 }
 ._2dvVTbIB11rxnOxBgZpHno{
 	width: 100%;
@@ -256,6 +257,10 @@ body{
 /* Link */
 ._17n7boanx0tXFqYMIFT2qI{
   display: block;
+  color:#00d646;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
 }
 
 

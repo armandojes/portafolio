@@ -55,6 +55,10 @@
 /* Link */
 .link_read_more{
   display: block;
+  color:#00d646;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 5px;
 }
 
 
