@@ -2,6 +2,7 @@ import React from 'react';
 import Primary from './components/primary';
 import About from './components/about';
 import Sections from './components/sections';
+import Contact from '../contact';
 
 function Home (){
 	return (
@@ -9,10 +10,7 @@ function Home (){
 			<Primary />
 			<About />
 			<Sections />
-			<div>
-			
-
-			</div>
+			<Contact />
 		</section>
 	)
 }
