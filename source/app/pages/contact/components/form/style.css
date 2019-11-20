@@ -5,6 +5,7 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 327px;
 }
 .form{
   width: 100%;
@@ -37,6 +38,13 @@
   color: #fff;
   font-weight: bold;
 }
+.success{
+  width: 90%;
+  margin: auto;
+  line-height: 1.5em;
+  color: #00d646;
+  text-align: center;
+}
 @media screen and (max-width: 900px){
   .body{
     width: 100%;
@@ -45,5 +53,8 @@
 @media screen and (max-width: 500px){
   .form textarea{
     height: 150px;
+  }
+  .body{
+    min-height: 227px;
   }
 }

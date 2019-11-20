@@ -8,7 +8,7 @@ function Form (props) {
   const language = useSelector(state => state.language)
   const [message, set_message] = useState('');
   const [email, set_email] = useState('');
-  const [state, set_state] = useState('loading');  //estados [loading, success, error, form]
+  const [state, set_state] = useState('success');  //estados [loading, success, error, form]
 
   return (
     <section>
@@ -31,6 +31,16 @@ function Form (props) {
         )}
         {state === 'loading' && (
           <Preloader />
+        )}
+        {state === 'success' && language === 'es' &&(
+          <p className={style.success}>
+            Gracias por contactarme, en breve recibiras una respuesta.
+          </p>
+        )}
+        {state === 'success' && language === 'us' &&(
+          <p className={style.success}>
+            Thank you for contacting me, you will receive a response shortly.
+          </p>
         )}
       </div>
     </section>

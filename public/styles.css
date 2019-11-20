@@ -393,6 +393,7 @@ body{
   display: flex;
   justify-content: center;
   align-items: center;
+  min-height: 327px;
 }
 ._3k_6_FoN4utnmkrjKSQ3e8{
   width: 100%;
@@ -425,6 +426,13 @@ body{
   color: #fff;
   font-weight: bold;
 }
+._1wkRb7nC6TmKd4R-n3os_b{
+  width: 90%;
+  margin: auto;
+  line-height: 1.5em;
+  color: #00d646;
+  text-align: center;
+}
 @media screen and (max-width: 900px){
   ._185Cn7eyQkEORLxzn88Ae-{
     width: 100%;
@@ -433,6 +441,9 @@ body{
 @media screen and (max-width: 500px){
   ._3k_6_FoN4utnmkrjKSQ3e8 textarea{
     height: 150px;
+  }
+  ._185Cn7eyQkEORLxzn88Ae-{
+    min-height: 227px;
   }
 }
 
