@@ -413,7 +413,7 @@ body{
   box-sizing: border-box;
   padding: 5px;
   border-radius: 5px;
-  height: 300px;
+  height: 250px;
 }
 ._3k_6_FoN4utnmkrjKSQ3e8 button  {
   background-color: #00d646;
@@ -430,6 +430,12 @@ body{
     width: 100%;
   }
 }
+@media screen and (max-width: 500px){
+  ._3k_6_FoN4utnmkrjKSQ3e8 textarea{
+    height: 150px;
+  }
+}
+
 .fAt97xS3dqeLPQX28wC-N{
   display: flex;
   justify-content: center;

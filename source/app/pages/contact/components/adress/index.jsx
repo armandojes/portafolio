@@ -1,6 +1,5 @@
 import React from 'react';
 import style from './style';
-import { Link } from 'react-router-dom';
 
 
 function Adress (props) {
