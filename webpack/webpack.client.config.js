@@ -33,6 +33,7 @@ const config = {
     extensions: ['.js', '.jsx', '.css'],
     alias: {
       hooks: path.resolve(__dirname, '../source/app/hooks'),
+      components: path.resolve(__dirname, '../source/app/components'),
     }
   },
   plugins: [
