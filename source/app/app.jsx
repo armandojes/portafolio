@@ -6,6 +6,7 @@ import {Switch, Route} from 'react-router';
 
 //pages 
 import Home from './pages/home';
+import Skills from './pages/skills';
 
 
 function App (){
@@ -14,6 +15,7 @@ function App (){
 			<Header />
 			<Switch> 
 				<Route path="/" exact={true} component={Home} />
+				<Route path="/skills" exact={true} component={Skills} />
 			</Switch> 
 		</Fragment>
 	)

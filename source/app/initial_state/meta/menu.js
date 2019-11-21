@@ -13,8 +13,8 @@ const menu = [
 		es: { text: 'Certificados', path: '/certificates',},
 	},
 	{
-		us: { text: 'Abilities', path: '/abilities',},
-		es: { text: 'Habilidades', path: '/abilities',},
+		us: { text: 'Skills', path: '/skills',},
+		es: { text: 'Habilidades', path: '/skills',},
 	},
 	{
 		us: { text: 'Contact', path: '/contact',},
