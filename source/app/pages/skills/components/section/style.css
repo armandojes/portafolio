@@ -1,10 +1,12 @@
-.body{
+.body, .body_reverse{
   display: flex;
   justify-content: space-between;
   align-items: center;
   margin: 50px auto;
   color: gray;
 }
+
+/* single */
 .body section:first-of-type{
   width: 50%;
 }
@@ -12,16 +14,27 @@
   width: 40%;
   margin-left: 20px;
 }
-.body h2{
+
+/* reverse */
+.body_reverse section:first-of-type{
+  width: 40%;
+  margin-left: 20px;
+}
+.body_reverse section:last-of-type{
+  width: 50%;
+  margin-left: 20px;
+}
+
+.body h2, .body_reverse h2{
   font-size: 1.3em;
   margin-bottom: 15px;
 }
-.body p{
+.body p, .body_reverse p{
   line-height: 1.5em;
   font-size: 1.1em;
 }
 @media screen and (max-width: 800px){
-  .body p{
+  .body p, .body_reverse p{
     font-size: 1em;
   }
 }
@@ -31,6 +44,10 @@
   .body{
     flex-direction: column-reverse;
   }
+  .body_reverse{
+    flex-direction: column;
+  }
+
   .text{
     margin-bottom: 20px;
   }
@@ -42,6 +59,18 @@
   /* texto */
   .body section:last-of-type{
     width: 70%;
+    margin-left: 0px;
+  }
+  /* reverso */
+  /* text */
+  .body_reverse section:first-of-type{
+    width: 70%;
+    margin-left: 0px;
+  }
+
+  /* picture */
+  .body_reverse section:last-of-type{
+    width: 90%;
     margin-left: 0px;
   }
 }
@@ -60,5 +89,15 @@
   /* texto */
   .body section:last-of-type{
     width: 90%;
+  }
+  
+  /* revsre */
+  /* text */
+  .body_reverse section:first-of-type{
+    width: 90%;
+  }
+  /* picture */
+  .body_reverse section:last-of-type{
+    width: 95%;
   }
 }

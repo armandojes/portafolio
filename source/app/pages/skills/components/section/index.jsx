@@ -4,12 +4,12 @@ import Container from 'components/container';
 
 function Section (props){
   return (
-    <Container className={style.body}>
-     <section>
-      <img  className={style.picture} src={props.picture}/>
+    <Container className={props.reverse ? style.body_reverse : style.body}>
+     <section className={props.reverse ? style.text : ''} >
+      {props.reverse ? props.children : <img  className={style.picture} src={props.picture}/>}
      </section>
-      <section className={style.text}>
-        {props.children}
+      <section className={!props.reverse ? style.text : ''}>
+      {!props.reverse ? props.children : <img  className={style.picture} src={props.picture}/>}
       </section>
     </Container>
   )
