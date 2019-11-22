@@ -1,0 +1,46 @@
+.wrapper{
+  color: #bec7d5;
+  background-color: #333b50;
+  background-blend-mode: darken;
+  background-size: cover;
+  background-position: center;
+}
+.body{
+  display: flex;
+  justify-content: center;
+  min-height: 400px;
+  align-items: center;
+  flex-direction: column;
+  max-width: 600px;
+  margin: auto;
+}
+.title{
+  font-size: 2.5em;
+}
+.picture{
+  width: 100px;
+  margin-top: 40px;
+}
+@media screen and (max-width:600px){
+  .body{
+    min-height: 300px;
+  }
+  .title{
+    font-size: 1.8em;
+  }
+  .picture{
+    width: 80px;
+    margin-top: 40px;
+  }
+}
+@media screen and (max-width:500px){
+  .body{
+    min-height: 300px;
+  }
+  .title{
+    font-size: 1.6em;
+  }
+  .picture{
+    width: 70px;
+  }
+}
