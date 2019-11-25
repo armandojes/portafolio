@@ -5,6 +5,7 @@ import Backend from './components/backend';
 import Frontend from './components/frontend';
 import NodeJs from './components/node';
 import Graphql from './components/graphql';
+import Details from './components/details';
 
 
 function Skills (){
@@ -15,6 +16,7 @@ function Skills (){
       <Frontend />
       <NodeJs />
       <Graphql />
+      <Details />
     </section>
   )
 }

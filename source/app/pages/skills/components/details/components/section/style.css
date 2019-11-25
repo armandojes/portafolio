@@ -1,0 +1,24 @@
+.wrapper{
+  width: 33%;
+  box-sizing: border-box;
+  padding: 10px;
+  display: flex;
+  justify-content: center;
+}
+.content{
+}
+.content h2 {
+  font-size: 1.2em;
+  margin-bottom: 10px;
+}
+.content li {
+  display: flex;
+  align-content: center;
+  padding: 8px 0px;
+  align-items: center;
+}
+
+.content img{
+  width: 30px;
+  margin-right: 10px;
+}
