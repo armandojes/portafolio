@@ -5,7 +5,7 @@ import Section from '../section';
 function Backend (){
 
   const language = useSelector(state => state.language);
-  console.log(language);
+
   return (
     <Section picture={`${ASSETS}/pictures/backend.png`} >
       <h2> {language === 'es' ? 'Desarrollador Backend' : 'Backend developer'} </h2>
