@@ -8,15 +8,17 @@ function Section (props){
   return (
     <div className={style.wrapper}>
       <section className={style.content}>
-        <h2>{title}</h2>
-        <ul>
-          {list.map( item => (
-            <li key={item.text}>
-              <img src={item.icon} />
-              <div>{item.text}</div>
-            </li>
-          ))}
-        </ul>
+        <div className={style.body}>
+          <h2>{title}</h2>
+          <ul>
+            {list.map( item => (
+              <li key={item.text}>
+                <img src={item.icon} />
+                <div>{item.text}</div>
+              </li>
+            ))}
+          </ul>
+        </div>
       </section>  
     </div>
   )

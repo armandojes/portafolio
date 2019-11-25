@@ -10,7 +10,7 @@ import Details from './components/details';
 
 function Skills (){
   return (
-    <section name="skills" role="page">
+    <section name="skills" role="page" className={style.page} style={{backgroundImage: `url(${ASSETS}/pictures/main.png)`}}>
       <Landing />
       <Backend />
       <Frontend />
