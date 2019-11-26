@@ -7,7 +7,7 @@ function Tools (){
   const language = useSelector(state => state.language);
   
   const content = {
-    title: language === 'es' ? 'Herramientas' : 'Tools',
+    title: 'Backend',
     list: [
       {icon: `${ASSETS}/icon/node.png`, text: 'Node Js'},
       {icon: `${ASSETS}/icon/nextjs.png`, text: 'Next Js'},
