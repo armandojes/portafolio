@@ -1,0 +1,37 @@
+.head_content{
+  min-height: 500px;
+  align-items: center;
+  display: flex;
+  justify-content: space-around;
+}
+.picture{
+  width: 50%;
+}
+.data{
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  line-height: 1.5em;
+  color: inherit;
+}
+.title{
+  font-size: 1.3em;
+  margin-bottom: 10px;
+}
+.button_container{
+  margin-top: 30px;
+  display: flex;
+  
+}
+.button{
+  display: block;
+  padding: 3px;
+  width: 150px;
+  text-align: center;
+  border: 1px solid #cdd9ef;
+  text-decoration: none;
+  border-radius: 5px;
+  color: #cdd9ef;
+  margin-right: 20px;
+}

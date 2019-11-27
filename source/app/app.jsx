@@ -7,6 +7,7 @@ import {Switch, Route} from 'react-router';
 //pages 
 import Home from './pages/home';
 import Skills from './pages/skills';
+import Proyect from './pages/proyect';
 
 
 function App (){
@@ -16,6 +17,7 @@ function App (){
 			<Switch> 
 				<Route path="/" exact={true} component={Home} />
 				<Route path="/skills" exact={true} component={Skills} />
+				<Route path="/proyect/:url" exact={true} component={Proyect} />
 			</Switch> 
 		</Fragment>
 	)
