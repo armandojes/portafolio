@@ -10,7 +10,7 @@ function Head (props){
       <div className={style.data}>
         <h2 className={style.title}>Platzi Blog</h2>
         <p>
-          Lorem ipsum dolor sit amet consectetur, adipisicing elit. Obcaecati doloremque nihil voluptatem inventore ad magni sed hic delectus unde? Iste repellat harum saepe nisi nulla nostrum doloremque omnis voluptate numquam!
+        Esta aplicación surge como un ejercicio de programación, es una réplica exacta (con ciertos cambios intencionales) del sistema de blog de Platzi.
         </p>
         <div className={style.button_container}>
           <a className={style.button} href="http://github.com">Github</a>

@@ -4,7 +4,7 @@ import style from './style.css';
 import Head from './components/head';
 import Detail from './components/detail';
 
-const picture = `${ASSETS}/proyects/template.png`;
+const picture = `${ASSETS}/proyects/platzi.png`;
 
 function Proyect (){
   return (
