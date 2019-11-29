@@ -25,6 +25,8 @@ function Proyect (){
           picture={data.picture}
           description={data.description}
           title={data.title}
+          github={data.github}
+          url={data.url}
         />
         <div className={style.content_details_and_gallery}>
           <Detail 

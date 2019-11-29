@@ -1,4 +1,6 @@
 const platzi = {
+  github: 'https://github.com/capitantripa/platzi-front',
+  url: 'https://platzi-blog.now.sh',
   picture: `${ASSETS}/projects/platzi_blog.png`,
   title: {es: 'Platzi Blog', us: 'Platzi Blog'},
   description: {
