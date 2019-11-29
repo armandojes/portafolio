@@ -9,13 +9,14 @@ import ReduxThunk from 'redux-thunk';
 import logger from 'redux-logger'
 import { composeWithDevTools } from 'redux-devtools-extension';
 
+const preloaded_state = window.preloaded_state;
+
 // creando tienda
 const  store  =  createStore (
-  reducer,
+	reducer,
+	preloaded_state,
   composeWithDevTools ( applyMiddleware (ReduxThunk, logger))
 );
-
-const preloaded_state = window.preloaded_state;
 
 function Client (props) {
 	return (

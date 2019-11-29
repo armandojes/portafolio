@@ -3,4 +3,5 @@ import createFlux from '../flux';
 const flux = createFlux('projects');
 
 const reducer = flux.createReducer(initiat_state.projects);
+
 export default reducer;

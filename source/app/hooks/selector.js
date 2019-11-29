@@ -2,8 +2,11 @@ import { useSelector } from 'react-redux';
 
 function selector(handler){
 	const state = useSelector(handler);
+	if (!state) return state;
+	const state_copy = JSON.parse(JSON.stringify(state));
 	const language = useSelector(state => state.language);
-	return extrat_rec(state, language);
+	
+	return extrat_rec(state_copy, language);
 }
 
 function extrat_rec (data, language){
@@ -20,6 +23,7 @@ function extrat_rec (data, language){
 		return data.map( object => extrat_rec(object, language))
 	}
 	
+
 	if (getType(data) === 'object') {
 		for (const key in data){
 			data[key] = extrat_rec(data[key], language);

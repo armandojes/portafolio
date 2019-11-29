@@ -1,13 +1,15 @@
-const platzi_blog = {
+const platzi = {
   picture: `${ASSETS}/projects/platzi_blog.png`,
   title: {es: 'Platzi Blog', us: 'Platzi Blog'},
   description: {
     es: 'Esta aplicación surge como un ejercicio de programación, es una réplica exacta (con ciertos cambios intencionales) del sistema de blog de Platzi.',
     us: 'This application emerges as a programming exercise, it is an exact replica (with certain intentional changes) of the Platzi blog system.'
   },
-  Characteristics: [
+  characteristics: [
     {
-      title: {es: 'Scroll infinito', us: 'Infinite scroll'},
+      title: {
+        es: 'Scroll infinito', 
+        us: 'Infinite scroll'},
       content: {
         es: 'Navegar entre paginas en el blog de platzi a veces toma hasta varios segundos. Desde mi perspectiva la mejor forma de solucionarlo es con una tecnica llamada "carga infinita" o "scroll infinito" de modo que los usuarios solo tienen que desplazarse hacia abajo para cargar más contenido.',
         us: 'Browsing between pages on the platzi blog sometimes takes up to several seconds. From my perspective, the best way to solve it is with a technique called "infinite load" or "infinite scroll" so that users only have to scroll down to load more content.',
@@ -28,4 +30,4 @@ const platzi_blog = {
   ],
 }
 
-export default platzi_blog;
+export default platzi;
