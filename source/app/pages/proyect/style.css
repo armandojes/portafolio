@@ -3,3 +3,16 @@
   min-height: 95vh;
   color: #bec7d5;
 }
+.content_details_and_gallery{
+  max-width: 800px;
+  margin: auto;
+}
+.content_details_and_gallery section {
+  margin-top: 30px;
+}
+.content_details_and_gallery h2 {
+  font-size: 1.2em;
+  margin-bottom: 15px;
+  border-bottom: 1px solid;
+  padding-bottom: 5px;
+}

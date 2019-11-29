@@ -8,11 +8,11 @@ function Details (props){
   const language = useSelector(state => state.language);
 
   return (
-    <section className={style.content}>
+    
       <div className={style.box}>
         <h2 className={style.title}>{language === 'es' ? 'Caracteristicas' : 'Characteristics'}</h2>
         {props.characteristics.map(sentence => (
-          <Fragment>
+          <Fragment key={sentence.title}>
             <p>
               {sentence.title && (<Fragment>{sentence.title}: <br /></Fragment>)}
               {sentence.content}
@@ -20,7 +20,7 @@ function Details (props){
           </Fragment>
         ))}
       </div>
-    </section>
+   
   )
 }
 

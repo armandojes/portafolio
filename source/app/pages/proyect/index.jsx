@@ -7,6 +7,7 @@ import Container from 'components/container';
 import style from './style.css';
 import Head from './components/head';
 import Detail from './components/detail';
+import Gallery from './components/gallery';
 
 
 
@@ -14,7 +15,6 @@ function Proyect (){
 
   const {url} = useParams();
   const data = useSelector(state => state.projects[transform_url(url)]);
-  console.log(data)
 
   if (!data) return 'error 404'
 
@@ -26,9 +26,14 @@ function Proyect (){
           description={data.description}
           title={data.title}
         />
-        <Detail 
-          characteristics={data.characteristics}
-        />
+        <div className={style.content_details_and_gallery}>
+          <Detail 
+            characteristics={data.characteristics}
+          />
+          <Gallery 
+            pictures={data.pictures}
+          />
+        </div>
       </Container>
     </section>
   )
