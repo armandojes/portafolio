@@ -16,3 +16,9 @@
   border-bottom: 1px solid;
   padding-bottom: 5px;
 }
+@media screen and (max-width: 750px){
+  .content_details_and_gallery{
+    max-width: 500px;
+    width: 90%;
+  }
+}

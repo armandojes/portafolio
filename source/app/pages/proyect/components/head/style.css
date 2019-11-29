@@ -22,7 +22,6 @@
 .button_container{
   margin-top: 30px;
   display: flex;
-  
 }
 .button{
   display: block;
@@ -34,4 +33,18 @@
   border-radius: 5px;
   color: #cdd9ef;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 750px){
+  .head_content{
+    flex-direction: column;
+  }
+  .picture, .data {
+    text-align: center;
+    width: 90%;
+    max-width: 500px;
+  }
+  .button_container{
+    justify-content: center;
+  }
 }
