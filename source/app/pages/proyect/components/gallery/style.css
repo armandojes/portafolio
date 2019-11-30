@@ -1,5 +1,5 @@
 .box{
-  padding: 50px;
+  padding: 80px;
   display: flex;
   justify-content: space-between;
   flex-direction: column;
@@ -16,9 +16,15 @@
   justify-content: center;
   align-items: center;
   line-height: 1.5em;
+  text-align: center;
 }
 .picture{
   margin: 10px auto;
   display: block;
   max-height: 550px;
+}
+@media screen and (max-width: 500px){
+  .box{
+    padding: 10px;
+  }
 }

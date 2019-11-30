@@ -9,9 +9,8 @@ function Gallery (props){
 
   return (
     <section className={style.body}>
-      {props.pictures.map(picture => (
-        <section className={style.box}>
-          
+      {props.pictures.map((picture, index) => (
+        <section className={style.box} key={index} >
           <div className={style.picture_container}>
             <img src={picture.picture} className={style.picture}/>
           </div>
