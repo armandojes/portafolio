@@ -1,25 +1,24 @@
-.box_content{
+.box{
+  padding: 50px;
+  display: flex;
+  justify-content: space-between;
+  flex-direction: column;
   background: #3b4153;
-  padding: 30px;
-  max-width: 500px;
-  margin: auto;
-  margin-bottom: 30px;
-  border-radius: 5px;
 }
-
-.picture_content img{
-  margin: auto;
+.picture_container{
+  width: 100%;
+  box-sizing: border-box;
+}
+.text_container{
+  box-sizing: border-box;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  line-height: 1.5em;
+}
+.picture{
+  margin: 10px auto;
   display: block;
-  max-height: 350px;
-}
-
-.box_content p{
-  text-align: center;
-  margin-top: 20px;
-}
-
-@media screen and (max-width:500px){
-  .box_content{
-    padding: 5px;
-  }
+  max-height: 550px;
 }

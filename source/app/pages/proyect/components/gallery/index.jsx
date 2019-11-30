@@ -8,18 +8,18 @@ function Gallery (props){
   const language = useSelector(state => state.language);
 
   return (
-    <section>
-      <h2>{language === 'es' ? 'Galeria' : 'Gallery'}</h2>
-      <div className={style.gallery_list_container}>
-        {props.pictures.map((picture, index) => (
-          <div className={style.box_content} key={index}>
-            <div className={style.picture_content} >
-              <img src={picture.picture} />
-            </div>
-            <p>{picture.text}</p>
+    <section className={style.body}>
+      {props.pictures.map(picture => (
+        <section className={style.box}>
+          
+          <div className={style.picture_container}>
+            <img src={picture.picture} className={style.picture}/>
           </div>
-        ))}
-      </div>
+          <div className={style.text_container}>
+            {picture.text}
+          </div>
+        </section>
+      ))}
     </section>
   )
 }
