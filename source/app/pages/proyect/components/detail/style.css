@@ -1,9 +1,12 @@
-
-
-.box p{
-  margin-bottom: 10px;
-  line-height: 1.5em;
-}
 .box{
   margin-top: 40px;
+}
+.icon_list_check{
+  max-width: 100%;
+  width: 20px;
+  margin-right: 10px;
+}
+.list_languages_and_libraries{
+  display: flex;
+  align-items: center;
 }

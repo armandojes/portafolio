@@ -16,6 +16,14 @@
   border-bottom: 1px solid;
   padding-bottom: 5px;
 }
+.content_details_and_gallery p{
+  margin-bottom: 10px;
+  line-height: 1.5em;
+}
+.content_details_and_gallery li{
+  line-height: 1.5em;
+}
+
 @media screen and (max-width: 750px){
   .content_details_and_gallery{
     max-width: 500px;

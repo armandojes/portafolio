@@ -26,30 +26,9 @@ const platzi = {
     },
   ],
   pictures: [
-    {
-      text: {
-        es: 'Vista principal desde computadora de escritorio.',
-        us: 'Main view from desktop computer.'
-      },
-      picture: `${ASSETS}/projects/platzi1.png`
-    },
-    {
-      text: {
-        es: 'Lista de posts desde computadora de escritorio.',
-        us: 'List of posts from desktop computer.'
-      },
-      picture: `${ASSETS}/projects/platzi2.png`
-    },
-    {
-      text: {
-        es: 'Lista de posts desde dispositivo movil.',
-        us: 'List of posts from mobile device.'
-      },
-      picture: `${ASSETS}/projects/platzi3.png`
-    }
-    // `${ASSETS}/projects/platzi1.png`,
-    // `${ASSETS}/projects/platzi2.png`,
-    // `${ASSETS}/projects/platzi3.png`,
+    `${ASSETS}/projects/platzi1.png`,
+    `${ASSETS}/projects/platzi2.png`,
+    `${ASSETS}/projects/platzi3.png`,
   ],
 }
 

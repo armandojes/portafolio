@@ -7,7 +7,9 @@ import Container from 'components/container';
 import style from './style.css';
 import Head from './components/head';
 import Detail from './components/detail';
+import Icons from './components/icons';
 import Gallery from './components/gallery';
+
 
 
 
@@ -29,12 +31,9 @@ function Proyect (){
           url={data.url}
         />
         <div className={style.content_details_and_gallery}>
-          <Detail 
-            characteristics={data.characteristics}
-          />
-          <Gallery 
-            pictures={data.pictures}
-          />
+          <Detail />
+          <Icons />
+          <Gallery pictures={data.pictures} />
         </div>
       </Container>
     </section>
