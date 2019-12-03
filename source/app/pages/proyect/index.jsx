@@ -31,8 +31,8 @@ function Proyect (){
           url={data.url}
         />
         <div className={style.content_details_and_gallery}>
-          <Detail />
-          <Icons />
+          <Detail details={data.details} objetive={data.objetive} />
+          <Icons languages={data.languages}/>
           <Gallery pictures={data.pictures} />
         </div>
       </Container>

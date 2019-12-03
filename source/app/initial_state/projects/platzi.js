@@ -7,29 +7,32 @@ const platzi = {
     es: 'Esta aplicación surge como un ejercicio de programación, es una réplica exacta (con ciertos cambios intencionales) del sistema de blog de Platzi.',
     us: 'This application emerges as a programming exercise, it is an exact replica (with certain intentional changes) of the Platzi blog system.'
   },
-  characteristics: [
-    {
-      title: {
-        es: 'Scroll infinito', 
-        us: 'Infinite scroll'},
-      content: {
-        es: 'Navegar entre paginas en el blog de platzi a veces toma hasta varios segundos. Desde mi perspectiva la mejor forma de solucionarlo es con una tecnica llamada "carga infinita" o "scroll infinito" de modo que los usuarios solo tienen que desplazarse hacia abajo para cargar más contenido.',
-        us: 'Browsing between pages on the platzi blog sometimes takes up to several seconds. From my perspective, the best way to solve it is with a technique called "infinite load" or "infinite scroll" so that users only have to scroll down to load more content.',
-      }
-    },
-    {
-      title: {es: 'Aplicacion isomorfica', us: 'Isomorphic application'},
-      content: {
-        es: 'Para mejorar aún más la usabilidad de la aplicación integramos render en el lado del servidor, de modo que la primera solicitud es procesada por el servidor y las solicitudes posteriores serán procesadas en el lado del cliente de esta manera nuestros usuarios percibirán una mayor velocidad de carga y navegación',
-        us: 'To further improve the usability of the application we integrate render on the server side, so that the first request is processed by the server and subsequent requests will be processed on the client side in this way our users will perceive a higher loading speed and navigation.',
-      }
-    },
-  ],
   pictures: [
     `${ASSETS}/projects/platzi1.png`,
     `${ASSETS}/projects/platzi2.png`,
     `${ASSETS}/projects/platzi3.png`,
   ],
+  objetive: {
+    es: 'Uno de mis hobbies es leer artículos en el blog de Platzi, y he notado que a veces toma hasta varios segundos para avanzar al siguiente listado de posts y me pareció desafiante y divertido crear una copia casi exacta (con ciertos cambios) para solucionar este problema… los cambios más notables es el Scroll infinito y ejecución universal (isomórfica).',
+    us: 'One of my hobbies is reading articles on Platzi\'s blog, and I have noticed that sometimes it takes up to several seconds to advance to the next list of posts and I found it challenging and fun to create an almost exact copy (with certain changes) to solve this problem. ... the most notable changes is the infinite Scroll and universal (isomorphic) execution.'
+  },
+  details: [
+    {es: 'Interfaces contruido con ReactJS', us: 'Interfaces built with ReactJS'},
+    {es: 'Manejo de estado global e inmutable con ReduxJs', us: 'Global and immutable state management with ReduxJs'},
+    {es: 'Soporte para multiples dispositivos (Responsivo)', us: 'Support for multiple devices (Responsive)'},
+    {es: 'Render en el lado del cliente y en el lado del servidor (isomorfica)', us: 'Render on the client side and on the server side (isomorphic)'},
+    {es: 'Desarrollo basado en componentes', us: 'Component Based Development'},
+    {es: 'Ultima vercion de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
+  ],
+  languages: [
+    'react',
+    'react router',
+    'redux',
+    'javascript',
+    'css',
+    'html',
+    'json',
+  ]
 }
 
 export default platzi;

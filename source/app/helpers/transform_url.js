@@ -1,5 +1,8 @@
 function transform_url (url){
-  return url.replace('-', '_');
+  
+  var parsed = url.replace('-', '_');
+  parsed = parsed.replace(' ', '_');
+  return parsed;
 }
 
 export default transform_url;
