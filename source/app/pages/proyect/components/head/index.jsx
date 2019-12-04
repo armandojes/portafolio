@@ -12,7 +12,7 @@ function Head (props){
         <p>{props.description}</p>
         <div className={style.button_container}>
           <a target="_blank" className={style.button} href={props.github}>Github</a>
-          <a target="_blank" className={style.button} href={props.url}>Sitio web</a>
+          {props.url && (<a target="_blank" className={style.button} href={props.url}>Sitio web</a>)}
         </div>
       </div>
     </section>

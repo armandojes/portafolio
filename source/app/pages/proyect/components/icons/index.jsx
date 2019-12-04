@@ -1,11 +1,16 @@
 import React from 'react';
 import style from './style';
 import transform_url from 'helpers/transform_url';
+import useSelector from 'hooks/selector';
+
 
 function Icons (props){
+
+  const language = useSelector (state => state.language);
+
   return (
     <section>
-      <h2>Lenjuages y librerias</h2>
+      <h2>{language === 'es' ? 'Lenguajes y librerias' : 'Languages ​​and libraries'}</h2>
       <div className={style.icons_container_list}>
         {props.languages.map((icon) => (
           <div className={style.icon_wrapper} key={icon} >
