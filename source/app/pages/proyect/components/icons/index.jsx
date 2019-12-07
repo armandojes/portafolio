@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import style from './style';
 import transform_url from 'helpers/transform_url';
 import useSelector from 'hooks/selector';
@@ -7,7 +7,10 @@ import useSelector from 'hooks/selector';
 function Icons (props){
 
   const language = useSelector (state => state.language);
-
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[]);
+  
   return (
     <section>
       <h2>{language === 'es' ? 'Lenguajes y librerias' : 'Languages ​​and libraries'}</h2>

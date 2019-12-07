@@ -5,8 +5,8 @@ const menu = [
 		es: { text: 'Inicio', path: '/',},
 	},
 	{
-		us: { text: 'Proyects', path: '/proyects',},
-		es: { text: 'Proyectos', path: '/proyects',},
+		us: { text: 'Projects', path: '/projects',},
+		es: { text: 'Proyectos', path: '/projects',},
 	},
 	{
 		us: { text: 'Certificates', path: '/certificates',},
