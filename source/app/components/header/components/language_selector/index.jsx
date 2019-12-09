@@ -3,6 +3,8 @@ import style from './style'
 import useSelector from 'hooks/selector';
 import {set_language} from 'flux/language';
 import {useDispatch} from 'react-redux';
+import {set_cookie} from 'helpers/cookie'
+
 
 function LanguageSelect (props){
   
@@ -13,6 +15,7 @@ function LanguageSelect (props){
 
   const handle_click = (value) => {
     dispatch(set_language(value));
+    set_cookie('language', value);
   }
 
   return (
