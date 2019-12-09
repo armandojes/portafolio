@@ -20,10 +20,15 @@
 .seleted{
 	border: 1px solid;
 }
-@media screen and (max-width:600px){
+@media screen and (max-width:720px){
 	.menu{
 		padding: 4px 13px;
 		margin: 0px 5px;
+	}
+}
+@media screen and (max-width:650px){
+	.hidden_tablet{
+		display: none;
 	}
 }
 @media screen and (max-width: 499px){

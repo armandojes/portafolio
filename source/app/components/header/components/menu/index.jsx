@@ -15,7 +15,7 @@ function Menu (){
 					exact={true} 
 					to={menu.path} 
 					activeClassName={style.seleted} 
-					className={style.menu} key={menu.text}>
+					className={`${style.menu} ${menu.path === '/certificates' ? style.hidden_tablet : ''}`} key={menu.text}>
 					{menu.text} 
 				</NavLink>
 			)}
