@@ -18,3 +18,13 @@
   border-bottom: 1px solid;
   box-sizing: border-box;
 }
+.list_item_language{
+  width: 120px;
+  margin: 20px auto;
+  padding: 8px;
+  border-radius: 5px;
+  text-align: center;
+}
+.list_item_language section {
+  top: 25px!important;
+}

@@ -3,7 +3,7 @@ import style from './style';
 import Container from 'components/container'
 import useSelector from 'hooks/selector';
 import { Link } from 'react-router-dom';
-
+import LanguageSelector from '../language_selector'
 
 function MenuMobile (props){
 
@@ -20,7 +20,8 @@ function MenuMobile (props){
           >
           {list_item.text}
         </Link>
-      ))}   
+      ))}
+      <LanguageSelector className={style.list_item_language} />
     </Container>
   )
 }

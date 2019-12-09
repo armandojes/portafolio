@@ -1,8 +1,43 @@
-.select{
-  padding-left: 5px;
-  padding-right: 5px;
-  background: none;
+.language_lecetor_item{
+  position: relative;
+  cursor: pointer;
+  background: #333b50;
+  display: flex;
+  width: 40px;
+  justify-content: space-between;
+  align-items: center;
 }
-.select option {
-  background-color: #333b50;
+.language_lecetor_item img{
+  width: 10px;
+  height: 8px;
+  display: flex;
+}
+.content_desplegable{
+  position: absolute;
+  border-radius: 5px;
+  top: 18px;
+  background: #333b50;
+  width: 100%;
+  box-sizing: border-box;
+  right: 0px;
+  padding: 10px;
+}
+.option{
+  text-align: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+  padding: 3px;
+  border: 1px solid;
+}
+.option:hover{
+  color: #00d646;
+}
+.language_lecetor_item:hover{
+  transform: none;
+}
+.display_language{
+  width:100%;
+  text-align: center;
 }
