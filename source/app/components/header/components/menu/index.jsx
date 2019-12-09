@@ -1,11 +1,11 @@
 import React from 'react';
 import style from './style';
 import useSelector from '../../../../hooks/selector';
-import { NavLink  , useLocation } from 'react-router-dom';
+import { NavLink } from 'react-router-dom';
+import LanguageSelector from '../language_selector';
 
 function Menu (){
 	
-
 	const items_menu = useSelector(state => state.meta.menu);
 
 	return (
@@ -15,9 +15,11 @@ function Menu (){
 					exact={true} 
 					to={menu.path} 
 					activeClassName={style.seleted} 
-					className={style.menu} key={menu.text}>{menu.text} 
-				</NavLink  >
+					className={style.menu} key={menu.text}>
+					{menu.text} 
+				</NavLink>
 			)}
+			<LanguageSelector className={style.menu} />
 		</div>
 	)
 }
