@@ -35,6 +35,7 @@ const config = {
       hooks: path.resolve(__dirname, '../source/app/hooks'),
       helpers: path.resolve(__dirname, '../source/app/helpers'),
       components: path.resolve(__dirname, '../source/app/components'),
+      flux: path.resolve(__dirname, '../source/app/redux'),
     }
   },
   plugins: [
