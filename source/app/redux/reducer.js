@@ -3,6 +3,7 @@ import meta from './meta';
 import language from './language';
 import pages from './pages';
 import projects from './projects';
+import certificates from './certificates';
 
 export default combineReducers(
 	{
@@ -10,5 +11,6 @@ export default combineReducers(
 		language,
 		meta,
 		projects,
+		certificates,
 	}
 );
