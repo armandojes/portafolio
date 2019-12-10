@@ -8,17 +8,20 @@ import reducer from './app/redux/reducer';
 import { createStore, applyMiddleware } from 'redux';
 import ReduxThunk from 'redux-thunk';
 import  {Provider} from 'react-redux';
-
+import initialState from './app/initial_state';
+import define_language from './define_language';
 
 async function serverRender(request, response){
 
 	const store = createStore(
 		reducer,
+		define_language(request, initialState),
 		applyMiddleware(
 			ReduxThunk
 		)
 	);
 	
+
 	const context = {};
 	const content_rendered = await asyncRenderToString(
 		<Provider store={store}>
