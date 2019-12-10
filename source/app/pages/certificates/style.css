@@ -1,0 +1,14 @@
+.page{
+  background-color: #5e6476;
+  min-height: 95vh;
+  color: azure;
+}
+.title{
+  font-size: 2em;
+  text-align: center;
+  padding: 15px 0px;
+}
+.container_list_certificates{
+  display: flex;
+  flex-wrap: wrap;
+}

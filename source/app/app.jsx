@@ -9,6 +9,7 @@ import Home from './pages/home';
 import Skills from './pages/skills';
 import Proyect from './pages/proyect';
 import Projects from './pages/projects';
+import Certificates from './pages/certificates';
 
 
 function App (){
@@ -20,6 +21,7 @@ function App (){
 				<Route path="/skills" exact={true} component={Skills} />
 				<Route path="/project/:url" exact={true} component={Proyect} />
 				<Route path="/projects" exact={true} component={Projects} />
+				<Route path="/certificates" exact={true} component={Certificates} />
 			</Switch> 
 		</Fragment>
 	)
