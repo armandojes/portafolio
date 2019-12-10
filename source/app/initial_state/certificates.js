@@ -15,7 +15,7 @@ const certificates = {
   14: {es: 'Curso Práctico de React JS', us: 'React JS Practical Course'},
   15: {es: 'Git y GitHub', us: 'Git and GitHub'},
   16: {es: 'Fundamentos de Ingeniería de Software', us: 'Fundamentals of Software Engineering'},
-  17: {es: 'Fundamentos de JavaScript', es: 'Fundamentals of Javascript'},
+  17: {es: 'Fundamentos de JavaScript', us: 'Fundamentals of Javascript'},
   18: {es: 'Vue.js', us: 'Vue.js'},
   19: {es: 'JavaScript y jQuery', us: 'JavaScript and jQuery'}, 
   20: {es: 'React.js', us: 'React.js'},
@@ -23,6 +23,8 @@ const certificates = {
   22: {es: 'Posicionamiento en buscadores', us: 'Search Engine ptimization'},
   23: {es: 'WebpackJs', us: 'WebpackJs'},
   24: {es: 'Marketing Voz a Voz', us: 'Voice to Voice Marketing'},
+  25: {es: 'Frontend Profesional', us: 'Frontend Professional'},
+  26: {es: 'Frontend con ReactJs', us: 'Frontend with ReactJs'},
 }
 
 export default certificates;
