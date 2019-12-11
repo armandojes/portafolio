@@ -16,6 +16,7 @@ function LanguageSelect (props){
   const handle_click = (value) => {
     dispatch(set_language(value));
     set_cookie('language', value);
+    props.handle_click && props.handle_click();
   }
 
   return (

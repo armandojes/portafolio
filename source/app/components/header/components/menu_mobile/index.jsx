@@ -21,7 +21,10 @@ function MenuMobile (props){
           {list_item.text}
         </Link>
       ))}
-      <LanguageSelector className={style.list_item_language} />
+      <LanguageSelector 
+        className={style.list_item_language}
+        handle_click={props.handle_click}
+      />
     </Container>
   )
 }
