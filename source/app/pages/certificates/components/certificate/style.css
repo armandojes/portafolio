@@ -2,6 +2,9 @@
   width: 33%;
   padding: 10px;
   box-sizing: border-box;
+  display: block;
+  text-decoration: none;
+  color: inherit;
 }
 .container{
   background: #333b50;

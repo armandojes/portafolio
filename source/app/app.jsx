@@ -22,6 +22,7 @@ function App (){
 				<Route path="/project/:url" exact={true} component={Proyect} />
 				<Route path="/projects" exact={true} component={Projects} />
 				<Route path="/certificates" exact={true} component={Certificates} />
+				<Route path="/certificate/:id" exact={true} component={Certificates} />
 			</Switch> 
 		</Fragment>
 	)
