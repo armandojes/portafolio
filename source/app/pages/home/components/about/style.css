@@ -1,9 +1,9 @@
 .wrapp{
-  background-color: #3b4153e6;
+  background-color: #353d52;
   background-attachment: fixed;
   background-repeat: no-repeat;
   background-size: cover;
-  background-blend-mode: multiply;
+  background-blend-mode: soft-light;
   color: #fff;
   background-position: center;
 }
@@ -11,20 +11,20 @@
   display: flex;
   justify-content: flex-start;
   align-items: center;
-  min-height: 500px;
+  min-height: 92vh;
   width: 100%;
   box-sizing: border-box;
 }
 .body h2{
   font-weight: bold;
   max-width: 700px;
-  font-size: 2em;
+  font-size: 1.5em;
   margin-bottom: 20px;
 }
 .body p{
   max-width: 700px;
-  line-height: 1.3em;
-  font-size: 1.1em;
+  line-height: 1.4em;
+  font-size: 1.05em;
   margin: 30px 0px;
 }
 @media screen and (max-width: 450px){
@@ -36,5 +36,8 @@
   }
   .body p {
     font-size: 1em;
+  }
+  .wrapp{
+    background-position: right!important;
   }
 }
