@@ -19,9 +19,9 @@ function Primary (props){
 
 	var typed_options = {
 		stringsElement:  '#typed-strings',
-		typeSpeed: 50,
-		backSpeed: 35,
-		backDelay: 1000,
+		typeSpeed: 60,
+		backSpeed: 40,
+		backDelay: 2000,
 		loop: true,
 		onStringTyped: toogle_style,
 	};
