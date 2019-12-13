@@ -34,14 +34,18 @@ function Primary (props){
 						<div id="typed-strings">
 							{language === 'es' && (
 								<Fragment>
-									<p className={style.hidden}> Hola, soy armando de jesus, <br /> Front-end developer</p>
-									<p className={style.hidden}> Hola, soy armando de jesus, <br /> back-end developer</p>
+									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Desarrollador Front-end</p>
+									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Desarrollador Back-end</p>
+									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Desarrollador Full-Stack</p>
+									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Programador apasionado y amante de los códigos</p>
 								</Fragment>
 							)}
 							{language === 'us' && (
 								<Fragment>
 									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Front-end developer</p>
-									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> back-end developer</p>
+									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Back-end developer</p>
+									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Full-Stack developer</p>
+									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Passionate programmer and code lover</p>
 								</Fragment>
 							)}
 							
