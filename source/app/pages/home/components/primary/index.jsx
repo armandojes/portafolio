@@ -37,7 +37,7 @@ function Primary (props){
 									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Desarrollador Front-end</p>
 									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Desarrollador Back-end</p>
 									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Desarrollador Full-Stack</p>
-									<p className={style.hidden}> Hola, soy Armando de Jesus, <br /> Programador apasionado y amante de los códigos</p>
+									<p> Hola, soy Armando de Jesus, <br /> Programador apasionado y amante de los códigos</p>
 								</Fragment>
 							)}
 							{language === 'us' && (
@@ -45,7 +45,7 @@ function Primary (props){
 									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Front-end developer</p>
 									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Back-end developer</p>
 									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Full-Stack developer</p>
-									<p className={style.hidden}> Hi, I am Armando de Jesus, <br /> Passionate programmer and code lover</p>
+									<p> Hi, I am Armando de Jesus, <br /> Passionate programmer and code lover</p>
 								</Fragment>
 							)}
 							

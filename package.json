@@ -1,12 +1,13 @@
 {
-  "name": "portafolio",
+  "name": "armandodejesus",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "watch": "set NODE_ENV=development&& webpack --watch --mode development",
     "build": "set NODE_ENV=production&& webpack -p --mode production",
-    "server": "nodemon ./build/server.js"
+    "server": "nodemon ./build/server.js",
+    "deploy": "npm run build && now --prod"
   },
   "author": "",
   "license": "ISC",
@@ -18,6 +19,8 @@
     "css-loader": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "nodemon": "^1.19.4",
+    "now": "^16.7.0",
+    "now-cli": "0.0.0",
     "redux-devtools-extension": "^2.13.8",
     "redux-logger": "^3.0.6",
     "style-loader": "^1.0.0",
