@@ -25,6 +25,7 @@ function Proyect (){
       <Container className={style.body}>
         <Head  
           picture={data.picture}
+          cover={data.cover}
           description={data.description}
           title={data.title}
           github={data.github}
