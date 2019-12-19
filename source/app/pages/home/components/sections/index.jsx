@@ -21,13 +21,13 @@ function Sections () {
             {language === 'es' && (
               <p>
                 Maquetacion, Diseño, Prototypo, Desarollo de aplicaciones web interactivas con las ultimas tecnologias, SPA, Apps isomorficas... 
-                <Link to="/abilities" className={style.link_read_more}>Conocer mas...</Link>
+                <Link to="/skills" className={style.link_read_more}>Conocer mas...</Link>
               </p>
             )}
             {language === 'us' && (
               <p>
                 Layout, Design, Prototypo, Development of interactive web applications with the latest technologies, SPA, Isomorphic Apps ... 
-                <Link to="/abilities" className={style.link_read_more}>Read more...</Link>
+                <Link to="/skills" className={style.link_read_more}>Read more...</Link>
               </p>
             )}
           </div>
@@ -40,13 +40,13 @@ function Sections () {
             {language === 'es' && (
               <p>
                 Conoce mis proyectos, Tiendas online, Aplicaciones de escritorio, Utilidades y librerias de codigo... 
-                <Link to="/abilities" className={style.link_read_more}>Conocer mas...</Link>
+                <Link to="/projects" className={style.link_read_more}>Conocer mas...</Link>
               </p>
             )}
             {language === 'us' && (
               <p>     
                 Know my projects, Online stores, Desktop applications, Utilities and code libraries ...
-                <Link to="/abilities" className={style.link_read_more}>Read more...</Link>
+                <Link to="/projects" className={style.link_read_more}>Read more...</Link>
               </p>
             )}
           </div>

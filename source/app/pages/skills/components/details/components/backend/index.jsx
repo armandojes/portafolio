@@ -10,7 +10,6 @@ function Tools (){
     title: 'Backend',
     list: [
       {icon: `${ASSETS}/icon/node.png`, text: 'Node Js'},
-      {icon: `${ASSETS}/icon/nextjs.png`, text: 'Next Js'},
       {icon: `${ASSETS}/icon/api.png`, text: 'API Rest'},   
       {icon: `${ASSETS}/icon/graphql.png`, text: 'GraphQL'},
       {icon: `${ASSETS}/icon/jwt.png`, text: 'Json Web Token'},

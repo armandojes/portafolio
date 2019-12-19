@@ -13,6 +13,7 @@ function Frontend (){
       {icon: `${ASSETS}/icon/redux.png`, text: 'Redux'},
       {icon: `${ASSETS}/icon/vue.png`, text: 'Vue'},
       {icon: `${ASSETS}/icon/pug.png`, text: 'Pug'},
+      {icon: `${ASSETS}/icon/nextjs.png`, text: 'Next Js'},
       {icon: `${ASSETS}/icon/responsive.png`, text: 'Responsive Design'},
     ],
   }
