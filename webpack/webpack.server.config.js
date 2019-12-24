@@ -44,8 +44,8 @@ const config = {
     }),
     new webpack.DefinePlugin({
       IS_PRODUCTION: process.env.NODE_ENV === 'production' ? true : false,
-      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh' : 'http://192.168.1.7:3000'),
-      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh/public' : 'http://192.168.1.7:3000/public'),
+      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh' : 'http://192.168.1.8:3000'),
+      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh/public' : 'http://192.168.1.8:3000/public'),
     })
   ],
   target: 'node',
