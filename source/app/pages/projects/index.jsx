@@ -27,6 +27,7 @@ function Projects () {
             />
           ))}
         </div>
+        <h1 className={style.title}>{language === 'es' ? 'Contribuciones' : 'Contributions'}</h1>
       </Container>
     </div>
   )

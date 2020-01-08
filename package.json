@@ -20,7 +20,7 @@
     "css-loader": "^3.2.0",
     "mini-css-extract-plugin": "^0.8.0",
     "nodemon": "^1.19.4",
-    "now": "^16.7.0",
+    "now": "^16.7.1",
     "now-cli": "0.0.0",
     "postcss-loader": "^3.0.0",
     "redux-devtools-extension": "^2.13.8",
@@ -45,5 +45,6 @@
     "regenerator-runtime": "^0.13.3",
     "reset-css": "^5.0.1",
     "typed.js": "^2.0.11"
-  }
+  },
+  "engines": { "node": "12.x" }
 }
