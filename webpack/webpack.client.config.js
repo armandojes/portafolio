@@ -1,6 +1,7 @@
 const path = require('path');
 const webpack = require('webpack');
 const extract = require('mini-css-extract-plugin');
+const autoprefixer = require('autoprefixer');
 
 const config = {
   entry: ["regenerator-runtime/runtime", path.resolve(__dirname, '../source/client.js')],
@@ -20,12 +21,23 @@ const config = {
       },
       {
         test: /\.css$/,
-        use: [extract.loader, {
-          loader: 'css-loader',
-          options: {
-            modules: true,
+        use: [
+          {
+            loader: extract.loader,
+          }, 
+          {
+            loader: 'css-loader',
+            options: {
+              modules: true,
+            },
           },
-        }],
+          {
+            loader: 'postcss-loader',
+            options: {
+              plugins: () => [autoprefixer()]
+            }
+          }
+        ],
       },
     ],
   },
@@ -44,8 +56,8 @@ const config = {
     }),
     new webpack.DefinePlugin({
       IS_PRODUCTION: process.env.NODE_ENV === 'production' ? true : false,
-      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh' : 'http://192.168.1.8:3000'),
-      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh/public' : 'http://192.168.1.8:3000/public'),
+      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh' : 'http://localhost:3000'),
+      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh/public' : 'http://localhost:3000/public'),
     })
   ],
   target: 'web',
