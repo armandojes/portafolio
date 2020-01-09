@@ -6,7 +6,7 @@ function Adress (props) {
   return (
     <section className={style.body}>
       <div className={style.limiter}>
-        <a className={style.row} href="https://github.com/capitantripa">
+        <a className={style.row} href="https://github.com/armandojes">
           <img className={style.icon} src={`${ASSETS}/icon/github.png`} />
           Github
         </a>

@@ -1,5 +1,5 @@
 const pcl = {
-  github: 'https://github.com/capitantripa/pcl-manage',
+  github: 'https://github.com/armandojes/pcl-manage',
   picture: `${ASSETS}/projects/pcl.png`,
   title: {es: 'PCL manage', us: 'PCL manage'},
   description: {

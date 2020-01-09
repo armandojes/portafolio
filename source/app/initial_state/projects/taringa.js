@@ -1,5 +1,5 @@
 const taringa = {
-  github: 'https://github.com/capitantripa/taringavue',
+  github: 'https://github.com/armandojes/taringavue',
   url: 'https://taringavue.now.sh',
   picture: `${ASSETS}/projects/taringa.png`,
   title: {es: 'Taringa', us: 'Taringa'},
