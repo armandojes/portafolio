@@ -52,13 +52,13 @@
 	.container{
 		align-items: flex-end;
 		min-height: 70vh;
-		height: 70vh;
+		height: 75vh;
 	}
 	.box_animate, .box_animate_another{
 		width: 90%;
-		font-size: 1.3em;
+		font-size: 1.1em;
 		text-align: center;
-		margin-bottom: 50px;
+		margin-bottom: 20px;
 	}
 	.section{
 		width: 100%;
