@@ -11,11 +11,10 @@ function Head(props){
       <link href="https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css" rel="stylesheet" />
       <title>{props.title || 'About Armando de jesus'}</title>
       <meta name="description" content={props.description || 'About Armando de jesus,  portfolio, Skills, contributions...'} />
-      {/* <meta property="og:url" content={props.url} /> */}
       <meta property="og:type" content="article" />
       <meta property="og:title" content={props.title || 'About Armando de jesus'} />
       <meta property="og:description" content={props.description || 'About Armando de jesus,  portfolio, Skills, contributions...'} />
-      <meta property="og:image" content={props.picture  || '/public/pictures/foto.png'}/>
+      <meta property="og:image" content={props.picture  || `${ASSETS}/pictures/foto_share.png`} />
     </Helmet>
   )
 }

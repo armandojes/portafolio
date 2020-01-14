@@ -1,6 +1,4 @@
 function makeHead (helmet){
-  console.log(helmet)
-  
 
   const link = helmet.link.toString();
   const base = helmet.base.toString();
