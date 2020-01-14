@@ -17,10 +17,10 @@ const taringa = {
     us: 'Programming exercise to solidify and practice knowledge in one of the newest libraries for Frontend VUE.js'
   },
   details: [
-    {es: 'Interfaces contruido con VueJs', us: 'Interfaces built with VueJs'},
+    {es: 'Interfaces construido con VueJs', us: 'Interfaces built with VueJs'},
     {es: 'Soporte para multiples dispositivos (Responsivo)', us: 'Support for multiple devices (Responsive)'},
     {es: 'Desarrollo basado en componentes', us: 'Component Based Development'},
-    {es: 'Ultima vercion de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
+    {es: 'Ultima version de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
   ],
   languages: [
     'vue',

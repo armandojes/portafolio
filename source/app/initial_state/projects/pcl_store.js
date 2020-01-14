@@ -23,7 +23,7 @@ const pcl = {
     {es: 'Interfaces construido con ReactJS', us: 'Interfaces built with ReactJS'},
     {es: 'Manejo de estado global e inmutable con ReduxJs', us: 'Global and immutable state management with ReduxJs'},
     {es: 'Desarrollo basado en componentes', us: 'Component Based Development'},
-    {es: 'Ultima vercion de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
+    {es: 'Ultima version de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
     {es: 'Diseño responsivo compatible con multiples tamaños de pantalla', us: 'Responsive design compatible with multiple screen sizes'}
   ],
   languages: [

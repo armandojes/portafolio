@@ -17,12 +17,12 @@ const platzi = {
     us: 'One of my hobbies is reading articles on Platzi\'s blog, and I have noticed that sometimes it takes up to several seconds to advance to the next list of posts and I found it challenging and fun to create an almost exact copy (with certain changes) to solve this problem. ... the most notable changes is the infinite Scroll and universal (isomorphic) execution.'
   },
   details: [
-    {es: 'Interfaces contruido con ReactJS', us: 'Interfaces built with ReactJS'},
+    {es: 'Interfaces construido con ReactJS', us: 'Interfaces built with ReactJS'},
     {es: 'Manejo de estado global e inmutable con ReduxJs', us: 'Global and immutable state management with ReduxJs'},
     {es: 'Soporte para multiples dispositivos (Responsivo)', us: 'Support for multiple devices (Responsive)'},
     {es: 'Render en el lado del cliente y en el lado del servidor (isomorfica)', us: 'Render on the client side and on the server side (isomorphic)'},
     {es: 'Desarrollo basado en componentes', us: 'Component Based Development'},
-    {es: 'Ultima vercion de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
+    {es: 'Ultima version de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
   ],
   languages: [
     'react',

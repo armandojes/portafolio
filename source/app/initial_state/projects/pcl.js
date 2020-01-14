@@ -16,11 +16,11 @@ const pcl = {
     us: 'One of the main problems of the company is to share the information of our customers between our different branches, handle this in Excel and synchronize the data manually is very inefficient. Pcl manage manages to solve this problem by centralizing all the information in one place, making it accessible in real time to our branches.'
   },
   details: [
-    {es: 'Interfaces contruido con ReactJS', us: 'Interfaces built with ReactJS'},
+    {es: 'Interfaces construido con ReactJS', us: 'Interfaces built with ReactJS'},
     {es: 'Manejo de estado global e inmutable con ReduxJs', us: 'Global and immutable state management with ReduxJs'},
     {es: 'Soporte para windows 7 o superior x32 y x86', us: 'Support for windows 7 or higher x32 and x86'},
     {es: 'Desarrollo basado en componentes', us: 'Component Based Development'},
-    {es: 'Ultima vercion de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
+    {es: 'Ultima version de Javascript transpilado con babel', us: 'Latest version of JavaScript transpile with babel'},
     {es: 'Desarrollado con ElectronJs', us: 'Developed with ElectronJs'}
   ],
   languages: [
