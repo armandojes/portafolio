@@ -3,6 +3,8 @@ import Primary from './components/primary';
 import About from './components/about';
 import Sections from './components/sections';
 import Contact from '../contact';
+import Helmet from "react-helmet";
+
 
 function Home (){
 	return (

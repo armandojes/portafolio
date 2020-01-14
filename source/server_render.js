@@ -10,6 +10,9 @@ import ReduxThunk from 'redux-thunk';
 import  {Provider} from 'react-redux';
 import initialState from './app/initial_state';
 import define_language from './define_language';
+import Helmet from "react-helmet";
+import makeHead from './makeHead';
+
 
 async function serverRender(request, response){
 
@@ -31,10 +34,18 @@ async function serverRender(request, response){
 		</Provider>
 	);
 
+	const helmet = Helmet.renderStatic();
+	const head = makeHead(helmet);
+
 	const preloaded_state = store.getState();
-	const html = renderToStaticMarkup(<Markup content_rendered={content_rendered} preloaded_state={preloaded_state}/>);
+	const html = renderToStaticMarkup(<Markup 
+		content_rendered={content_rendered} 
+		preloaded_state={preloaded_state} 
+		head={head}
+	/>);
 	
 	response.send(html);
+	response.end();
 };
 
 export default serverRender;

@@ -3,7 +3,7 @@ import Header from './components/header';
 import 'reset-css';
 import './base';
 import {Switch, Route} from 'react-router';
-
+import Head from './components/head';
 //pages 
 import Home from './pages/home';
 import Skills from './pages/skills';
@@ -16,6 +16,7 @@ import Contact from './pages/contact';
 function App (){
 	return (
 		<Fragment>
+			<Head />
 			<Header />
 			<Switch> 
 				<Route path="/" exact={true} component={Home} />

@@ -6,15 +6,7 @@ function Markup (props){
 
 	return (
 		<html>
-			<head>
-				<base href={BASEURL} />
-				<title>Portafolio Armando de jesus</title>
-				<link rel="stylesheet" href={`${ASSETS}/styles.css`}/>
-				<meta name="viewport" content="width=device-width, user-scalable=no" />
-				<link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet" />
-				<link href="https://cdn.jsdelivr.net/npm/segoe-fonts@1.0.1/segoe-fonts.min.css" rel="stylesheet" />
-				
-			</head>
+			<head dangerouslySetInnerHTML={{__html: props.head}}/>
 			<body>
 				<div 
 					id="render_target"
