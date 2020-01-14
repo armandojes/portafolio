@@ -14,7 +14,7 @@ function Head(props){
       <meta property="og:type" content="article" />
       <meta property="og:title" content={props.title || 'About Armando de jesus'} />
       <meta property="og:description" content={props.description || 'About Armando de jesus,  portfolio, Skills, contributions...'} />
-      <meta property="og:image" content={props.picture  || `${ASSETS}/pictures/foto_share.png`} />
+      <meta property="og:image" content={props.picture  || `${ASSETS}/pictures/foto__share.png`} />
     </Helmet>
   )
 }
