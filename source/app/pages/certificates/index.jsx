@@ -1,4 +1,4 @@
-import React, {useState} from 'react';
+import React, { useEffect } from 'react';
 import Container from 'components/container';
 import style from './style';
 import useSelector from 'hooks/selector';
@@ -13,6 +13,10 @@ function Certificates (props){
   const certificates = useSelector(state => state.certificates);
   const { id = null } = useParams();
   
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
+
   return (
     <section className={style.page}>
       {id && (<Display id={id}/>)}

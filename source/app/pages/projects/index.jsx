@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useEffect} from 'react';
 import style from './style';
 import useSelector from 'hooks/selector';
 import Container from 'components/container';
@@ -14,6 +14,9 @@ function Projects () {
   const language = useSelector(state => state.language);
   const projects = useSelector(state => state.projects);
 
+  useEffect(() => {
+    window.scrollTo(0,0)
+  },[])
   
   return (
     <div className={style.wrapper_page}>

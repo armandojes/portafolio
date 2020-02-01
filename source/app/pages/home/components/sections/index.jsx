@@ -20,7 +20,7 @@ function Sections () {
             <h3>{language === 'es' ? 'Habilidades' : 'Skills'}</h3>
             {language === 'es' && (
               <p>
-                Maquetacion, Diseño, Prototypo, Desarollo de aplicaciones web interactivas con las ultimas tecnologias, SPA, Apps isomorficas... 
+                Maquetacion, Diseño, Prototipo, Desarollo de aplicaciones web interactivas con las ultimas tecnologias, SPA, Apps isomorficas... 
                 <Link to="/skills" className={style.link_read_more}>Conocer mas...</Link>
               </p>
             )}

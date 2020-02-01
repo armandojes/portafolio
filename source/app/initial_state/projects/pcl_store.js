@@ -15,7 +15,7 @@ const pcl = {
 
   ],
   objetive: {
-    es: 'En la empresa recibimos muchas llamas telefónicas al día preguntado sobre nuestros servicios o preguntando por stock de un producto. Esta página web está destinada para que nuestros clientes pueden encontrar lo que buscan de una manera más fácil y efectiva.',
+    es: 'En la empresa recibimos muchas llamadas telefónicas al día preguntado sobre nuestros servicios o preguntando por stock de un producto. Esta página web está destinada para que nuestros clientes pueden encontrar lo que buscan de una manera más fácil y efectiva.',
     us: 'In the company we receive many phone calls a day asking about our services or asking for stock of a product. This website is intended so that our clients can find what they are looking for in an easier and more effective way.'
   },
   details: [
