@@ -34,7 +34,7 @@ const pcl = {
     'css',
     'html',
     'json',
-    'php',
+    'PHP',
   ]
 }
 

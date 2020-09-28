@@ -7,7 +7,8 @@ const config = {
   entry: ["regenerator-runtime/runtime", path.resolve(__dirname, '../source/client.js')],
   output: {
     path: path.resolve(__dirname, '../public'),
-    filename: 'client.js'
+    filename: 'client.js',
+    publicPath: '/public'
   },
   module: {
     rules: [
@@ -18,6 +19,14 @@ const config = {
         options: {
           presets: ['@babel/preset-env', '@babel/preset-react'],
         },
+      },
+      {
+        test: /\.(png|jpe?g|gif|svg)$/i,
+        loader: 'file-loader',
+        options: {
+          emitFile: true,
+          publicPath: '/public/',
+        }
       },
       {
         test: /\.css$/,
@@ -55,9 +64,9 @@ const config = {
       filename: "styles.css"
     }),
     new webpack.DefinePlugin({
-      IS_PRODUCTION: process.env.NODE_ENV === 'production' ? true : false,
-      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh' : 'http://localhost:3000'),
-      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh/public' : 'http://localhost:3000/public'),
+      IS_PRODUCTION: process.env.NODE_ENV === 'production',
+      BASEURL: JSON.stringify(process.env.NODE_ENV === 'production' ? 'https://armandodejesus.now.sh' : '/public'),
+      ASSETS: JSON.stringify(process.env.NODE_ENV === 'production' ? '/public' : '/public'),
     })
   ],
   target: 'web',
