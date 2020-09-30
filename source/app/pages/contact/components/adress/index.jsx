@@ -18,9 +18,9 @@ function Adress (props) {
           <img className={style.icon} src={`${ASSETS}/icon/twitter.png`} />
           Twitter
         </a>
-        <a className={style.row} href="https://wa.me/+529671081479">
+        <a className={style.row} href="https://wa.me/+5219671388451">
           <img className={style.icon} src={`${ASSETS}/icon/whatsapp.png`} />
-          +52 9671081479
+          +52 9671388451
         </a>
         <div className={style.row}>
           <img className={style.icon} src={`${ASSETS}/icon/email.png`} />

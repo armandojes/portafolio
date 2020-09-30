@@ -27,7 +27,7 @@ function ReactFetchSsr () {
           <a className={style.actions} href="https://github.com/armandojes/react-fetch-ssr">
             <img src={`${ASSETS}/icon/github.png`} alt=""/>  Github
           </a>
-          <a className={style.actions} href="https://react-fetch-ssr.now.sh">
+          <a className={style.actions} href="https://www.npmjs.com/package/react-fetch-ssr">
             <img src={`${ASSETS}/icon/web.png`} alt="web docs"/>  Docs
           </a>
         </div>

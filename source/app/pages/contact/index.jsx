@@ -5,13 +5,16 @@ import useSelector from 'hooks/selector';
 import Form from './components/form'
 import Adress from './components/adress'
 
-function Contact (){
-
+function Contact (props){
   const language = useSelector(state => state.language);
+  const stylePage = {
+    minHeight: '86vh',
+    display: 'flex',
+  }
 
 
   return (
-    <div className={style.wrapper} id="contact">
+    <div className={style.wrapper} id="contact" style={props.page ? stylePage : {}}>
       <Container className={style.body}>
         <div className={style.box}>
           <div className={style.header_box}>

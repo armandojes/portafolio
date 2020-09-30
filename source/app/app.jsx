@@ -25,7 +25,7 @@ function App (){
 				<Route path="/projects" exact={true} component={Projects} />
 				<Route path="/certificates" exact={true} component={Certificates} />
 				<Route path="/certificate/:id" exact={true} component={Certificates} />
-				<Route path="/contact" exact={true} component={Contact} />
+				<Route path="/contact" exact={true} component={propa => <Contact page />} />
 			</Switch> 
 		</Fragment>
 	)

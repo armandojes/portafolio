@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import style from './style';
 import Landing from './components/landing';
 import Backend from './components/backend';
@@ -9,6 +9,10 @@ import Details from './components/details';
 
 
 function Skills (){
+  useEffect(() => {
+    window.scrollTo(0, 0)
+  }, [])
+
   return (
     <section name="skills" role="page" className={style.page} style={{backgroundImage: `url('${ASSETS}/pictures/main.png')`}}>
       {/* <Landing /> */}
