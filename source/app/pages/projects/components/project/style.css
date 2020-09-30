@@ -8,9 +8,10 @@
   margin-bottom: 30px;
   position: relative;
   color: inherit;
+  font-size: 1em;
 }
 .container img {
-  max-height: 450px;
+  max-height: 700px;
   display: block;
 }
 .data_container{
@@ -36,6 +37,30 @@
 .data_container p{
   font-size: 1.1em;
   line-height: 1.3em;
+}
+@media screen and (max-width:1800px) {
+  .container img {
+    max-height: 600px;
+    display: block;
+  }
+}
+@media screen and (max-width:1600px) {
+  .container img {
+    max-height: 500px;
+    display: block;
+  }
+}
+@media screen and (max-width:1400px) {
+  .container img {
+    max-height: 450px;
+    display: block;
+  }
+}
+@media screen and (max-width:1100px) {
+  .container img {
+    max-height: 400px;
+    display: block;
+  }
 }
 
 /*hover simpre visible para pantallas touch*/

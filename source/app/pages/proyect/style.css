@@ -3,8 +3,14 @@
   min-height: 95vh;
   color: #bec7d5;
 }
+.body {
+  max-width: 75%;
+  width: 75%;
+  font-size: 1.2em;
+  box-sizing: border-box;
+}
 .content_details_and_gallery{
-  max-width: 800px;
+  max-width: 75%;
   margin: auto;
 }
 .content_details_and_gallery section {
@@ -22,6 +28,35 @@
 }
 .content_details_and_gallery li{
   line-height: 1.5em;
+}
+@media screen and (max-width: 1700px){
+  .body {
+    font-size: 1.1em;
+  }
+}
+@media screen and (max-width: 1500px){
+  .body {
+    font-size: 1em;
+    max-width: 85%;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1200px){
+  .body {
+    font-size: .9em;
+    max-width: 85%;
+    width: 85%;
+  }
+}
+@media screen and (max-width: 1000px){
+  .body {
+    max-width: 95%;
+    width: 95%;
+  }
+  .content_details_and_gallery{
+    max-width: 85%;
+    margin: auto;
+  }
 }
 
 @media screen and (max-width: 750px){
